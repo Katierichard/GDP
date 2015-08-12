@@ -382,6 +382,17 @@
       "tooltip": "{{ Equivalent Children Supported in basic education }}%", 
       "type": "number"
     }, 
+    "gdp": {
+      "description": " GDP", 
+      "display": "{{  GDP }}%", 
+      "max": 83739388, 
+      "min": 7839383, 
+      "name": " GDP", 
+      "precision": 2, 
+      "source_file": "data.csv", 
+      "tooltip": "tooltip: {{  GDP }}%", 
+      "type": "number"
+    }, 
     "gpe_annual_funding_approvals": {
       "description": "GPE Annual Funding Approvals", 
       "display": "{{ GPE Annual Funding Approvals }}%", 
@@ -1437,6 +1448,17 @@
       "tooltip": "{{ Pupil Teacher Ratio, Primary Education }}%", 
       "type": "number"
     }, 
+    "ranking": {
+      "description": " Ranking", 
+      "display": "{{  Ranking }}%", 
+      "max": 3, 
+      "min": 1, 
+      "name": " Ranking", 
+      "precision": 2, 
+      "source_file": "data.csv", 
+      "tooltip": "tooltip: {{  Ranking }}%", 
+      "type": "number"
+    }, 
     "youth__literacy_rate__female": {
       "choropleth": [
         {
@@ -1655,7 +1677,9 @@
       }, 
       "Pre-primary Gross Enrollment Ratio Female (%)", 
       "Pre-primary Gross Enrollment Ratio Male (%)", 
-      "Pre-primary Gross Enrollment Ratio Total (%)"
+      "Pre-primary Gross Enrollment Ratio Total (%)", 
+      " GDP", 
+      " Ranking"
     ]
   }
 }
